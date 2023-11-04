@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="attributeclosure.js"></script>
+    <link href="styling.css" rel="stylesheet">
+   
+</head>
+<body>
+    <h1>ATTRIBUTE CLOSURE</h1>
+    <div id="foobar">
+    <form name="form1">
+        <h2>ENTER ALL ATTRIBUTES PRESENT IN RELATON eg:{A,B,C,D}</h2>
+        <input type="text" id="srelation" name="srelation">
+        <br>
+    <h2 id="after">ADD FUNCTIONAL DEPENDENCIES USING THE BOX GIVEN BELOW:</h2>
+    <br>
+    <input type="button" id="button1" value="INSERT FD" onclick="add(document.form1)">
+    <br>
+     <div id="TextBoxContainer" >
+    <br>
+     </div> 
+
+    </div>
+    <input type="button" onclick="sendtext(document.form1),attribute(document.form1)" value="display">
+    <h2>THE CLOSURES ARE AS FOLLOWS:</h2>
+    <br>
+    <div id="result"></div>
+    <h2>CANDIDATE KEYS ARE:</h2>
+    <br>
+    <div id="ck"></div>
+    
+    </form>
+</body>
+</html>

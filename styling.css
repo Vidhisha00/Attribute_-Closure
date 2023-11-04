@@ -1,0 +1,51 @@
+.solution
+{
+    width:400px;
+    height:200px;
+    background-color: darkgrey;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-align:center;
+
+  }
+
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+#result{
+
+  font-family: sans-serif;
+  padding: 0 20px;
+  font-size: 70px;
+  font-style: inherit;
+  font-size: medium;
+  font-weight: bolder
+
+}
+
+  
